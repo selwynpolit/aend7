@@ -1,0 +1,8 @@
+filename = "site-name-2013-06-20T17-48-27"
+description = ""
+datestamp = "1371768556"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.22"
+sites[0][name] = "Austin EcoNetwork"
+sites[0][url] = "http://aenupgr.mgt2.austexcs.com/"

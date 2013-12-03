@@ -1,0 +1,48 @@
+/*
+local.css for AustinEconetwork 
+for impact_theme
+*/
+
+/*
+.field-name-field-org-logo{
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.5em ;
+}
+*/
+
+
+
+.class-basic-org, .class-partner-org, .class-partner-plus-org{
+	border: 2px solid rgb(216, 145, 34);
+	background-repeat: repeat-x;
+	background-image: url("images/grad-biz.jpg");
+	background-image: url("images/grad2-biz.jpg");
+	margin-bottom: 20px;
+	padding: 10px 18px;
+}
+
+.field-name-field-org-logo img{
+	float: right;
+	margin-top: -150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 120px;
+	height: 105px;
+
+}	
+.page-node #content-wrap img {
+	border: none ;
+	margin-top: -59px;
+	margin-right: -8px;
+	padding: 10px;
+	
+}
+
+
+.field-name-taxonomy-vocabulary-12 .field-item {
+  float: left ; 
+  padding: 2px;
+  
+  
+}

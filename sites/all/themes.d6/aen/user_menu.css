@@ -1,0 +1,142 @@
+/* $Id$ */
+
+/**
+ * User menu CSS file for AEN website
+ */
+
+#user-menu .menu, #user-menu .menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+#user-menu .menu {
+	line-height:	1.0;
+}
+#user-menu .menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			15em; /* left offset of submenus need to match (see below) */
+}
+#user-menu .menu ul li {
+	width:			100%;
+}
+#user-menu .menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+#user-menu .menu li {
+	float:			left;
+	position:		relative;
+}
+#user-menu .menu a {
+	display:		block;
+	position:		relative;
+}
+#user-menu .menu li:hover ul,
+#user-menu .menu li.sfHover ul {
+	left:			0;
+	top:			20px; /* match top ul list item height */
+	z-index:		99;
+}
+#user-menu ul.menu li:hover li ul,
+#user-menu ul.menu li.sfHover li ul {
+	top:			-999em;
+}
+#user-menu ul.menu li li:hover ul,
+#user-menu ul.menu li li.sfHover ul {
+	left:			15em; /* match ul width */
+	top:			0;
+}
+#user-menu ul.menu li li:hover li ul,
+#user-menu ul.menu li li.sfHover li ul {
+	top:			-999em;
+}
+#user-menu ul.menu li li li:hover ul,
+#user-menu ul.menu li li li.sfHover ul {
+	left:			15em; /* match ul width */
+	top:			0;
+}
+
+/* arrows */
+#user-menu .menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			.75em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../../plugins/superfish/images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+/* point right for anchors in subs */
+#user-menu .menu ul .sf-sub-indicator { background-position:  -10px 0; }
+#user-menu .menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+#user-menu .menu ul a:focus > .sf-sub-indicator,
+#user-menu .menu ul a:hover > .sf-sub-indicator,
+#user-menu .menu ul a:active > .sf-sub-indicator,
+#user-menu .menu ul li:hover > a > .sf-sub-indicator,
+#user-menu .menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+
+#user-menu {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#user-menu h2 {
+  /*float: left;*/
+}
+
+/* Superfish Default skin */
+#user-menu .menu {
+  margin: 0;
+  padding: 0;
+/*  float: left; */
+/*  margin: 0 0 0 -12px; */
+}
+#user-menu .menu a {
+  padding: 6px 12px 7px;
+  text-decoration:none;
+}
+#user-menu .menu a, 
+#user-menu .menu a:visited  { 
+  color: #FFF;
+}
+#user-menu .menu li {
+  background: #000;
+}
+#user-menu .menu li li {
+  background: #000;
+}
+#user-menu .menu li li li {
+  background: #000;
+}
+#user-menu .menu li:hover, 
+#user-menu .menu li.sfHover,
+#user-menu .menu a:focus, 
+#user-menu .menu a:hover, 
+#user-menu .menu a:active {
+/*  background: url("images/sf-hover-tile.png") repeat-y left top; */
+  background-color: blue;
+  outline: 0;
+}

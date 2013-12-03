@@ -1,0 +1,442 @@
+
+
+.class-orgfields-selwyn{
+ margin-bottom:10px;
+}
+
+.class-orgfields-selwyn h2 a{
+	color:#253245;
+	font-size:20px;
+}
+
+.view-id-dir_orgs2 .views-row-odd{
+background-color:#DCDCDC;
+
+}
+
+.view-id-dir_orgs2 .views-row-even{
+background-color:#F0F0F0;
+
+
+}
+
+.class-phone-website{
+ width: 305px;
+ margin-left: 5px;
+ float:right;
+ clear:right;
+ }
+ 
+.class-address-container{
+  float:none;
+  width: 285px;  /* 5 px left and rt */
+  position: relative;
+}
+
+
+/*
+************
+landing page  
+************/
+.views-field-title a:link, .views-field-title a:visited{
+	font-family: Georgia, "Times New Roman", Times, serif; font-size:18px;/*palatino linotype,*/
+}
+
+/* ecobiz partner left */
+#block-views-dir_landing-block_1{
+  background-color:#ffa446;
+  border: solid #999 1px ;
+  width: 283px;
+	padding:0;
+  margin:10px 0 20px 10px;
+  float:left;
+}
+
+/* ecocommunity partner right */
+#block-views-dir_landing-block_2{
+  background-color:#a4ddcf; 
+  border: solid #999 1px ;
+  width: 283px;
+  padding:0;
+  margin:10px 10px 20px 0;
+  float: right;
+}
+.views-field-field-org-logo-fid{
+	text-align:center;
+	padding: 10px 10px 10px 10px;
+}
+
+.view-id-dir_landing{
+  border-top: solid #999 1px ;
+  background-color:#fff;
+  padding-left:15px; min-height:620px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.view-dir-landing .views-field-title{
+ color:#000000;
+font-size:16px;
+font-weight:bold;
+margin-top:10px;
+padding-bottom:5px;
+}
+
+
+/******************************************rick styles on 9-2************************/
+.node {
+background:#none;
+overflow:hidden;
+padding-bottom:0px;
+padding-left:10px;
+padding-right:10px;
+}
+#content-left-wrapper {
+clear:left; 
+float:left;
+margin:0px; padding-top:0;
+text-align:left;
+width:150px;
+}
+#content-region .content h4{
+	font-family:palatino linotype, serif; font-size:26px; color:#efa53d; text-transform: none; font-style:italic; font-weight:bold; margin:0 0 12px 0; padding:0 -10px 0px -10px; display:block; border-bottom:1px solid #efa53d;
+}
+h4{
+	color:#efa53d;
+}
+.views-field-field-org-website-url{
+	margin-top:15px; margin-bottom:20px;
+}	
+#block-views-dir_landing-block_1 h2{
+	 padding:0 15px ; color:#000; text-align:center; font-family:palatino linotype, serif;  font-size:16px;
+}
+#block-views-dir_landing-block_2 h2{
+	 padding:0 15px ; color:#000; text-align:center; font-family:palatino linotype, serif;font-size:16px;
+}
+.view-content a:link, .view-content a:visited{
+	color:#337244; padding-bottom:17px;
+}
+.view-content a:hover{
+	color:#e88019;
+}
+div.field-content p{
+	line-height:1.5em; color:#966826; font-weight:normal; border-top:1px solid #666; padding-top:12px; font-style: italic;
+}
+ul.class-gbd-org{
+	padding-left:10px;
+}
+ul.class-gbd-org li{
+	color:#6f8540; list-style-type:none; font-weight:bold;
+}
+ul.class-gbd-org li a:link, ul.class-gbd-org li a:visited{
+	color:#6f8540;text-decoration:underline;
+}
+ul.class-gbd-org li a:hover{
+	color:#e88019; 
+}
+#block-block-4 div.content p a:link , #block-block-4 div.content p a:visited{
+	float:left;margin:0px 0 4px 10px;padding:12px 0 0 40px;width:223px; font-family:verdana, sans serif; font-size:16px; color:#8cbdb2; font-weight:bold; background-image:url(images/direct-arrow.gif); background-repeat:no-repeat; height:40px;
+}
+#block-block-4 div.content p a:hover{
+	color:#275564;
+	}
+#block-block-5 div.content p a:link , #block-block-5 div.content p a:visited{
+	float:right;margin:0px 33px 4px 10px;padding:12px 0 0 40px;width:223px;font-family:verdana, sans serif; font-size:16px; color:#8cbdb2; font-weight:bold; background-image:url(images/direct-arrow.gif); background-repeat:no-repeat; height:40px;
+}
+#block-block-5 div.content p a:hover{
+	color:#275564;
+	}
+/*******************************rick's styles on 9/12/09***********************************************/
+.class-partner-org {
+background:none;
+margin:0px;
+padding:0px;
+}
+
+/*******styles for government node view*********************/
+.class-government{
+background:none; border:2px solid #7cabc5;
+margin-bottom:20px;
+padding:10px 18px;
+}
+.class-partner-org img, .class-partner-plus-org img {
+float:right;
+margin-left:10px;
+margin-right:10px;
+outline:none;
+}
+
+.class-government  h2{
+	color:#7cabc5; font-size:20px; font-family:palatino linotype, serif;  margin-bottom:2px; margin-top:9px; text-decoration:underline;
+}
+div.class-address p{
+	margin-top:3px; padding:0; line-height:140%; font-size:13px; margin-bottom:3px;
+}
+.field field-type-ca-phone, .field-field-org-phone{
+	line-height:140%; font-size:13px; margin-top:0;
+}
+
+.field field-type-text, .field-field-description p{
+	line-height:140%; font-size:12px; color:#666; font-family:Verdana, Arial, Helvetica, sans-serif; font-style:italic; border-bottom:1px solid #666; padding-bottom:10px;
+}
+.field-label-inline-first{
+	color:#339966;
+}
+
+.field-field-org-affiliations{
+	color:#7cabc5;margin-top:10px; margin-bottom:10px;
+}
+.class-government ul.links li a:link, .class-government ul.links li a:visited{
+	font-weight:bold; color:#7cabc5; margin-bottom:14px; text-decoration:underline; margin-right:12px;
+}
+.field-field-org-partner-type{
+	color:#666; font-size:10px;margin-top:15px;
+}
+ul.links li {/*system-m...nus.css?5 (line 42)*/
+display:inline;
+list-style-type:none;
+padding:0;
+}
+/*******styles for business node view*********************/
+.class-ecobusiness{
+	margin-right: 0px;
+	padding-right 60px ;
+}
+.class-partner-plus-org {
+background:none;
+border:none;
+margin:0px;
+padding:0;
+}
+.class-ecobusiness h2, .class-ecobusiness h2 a:link, .class-ecobusiness h2 a:visited{
+	color:#d89122; font-size:20px; font-family:palatino linotype, serif; text-decoration:underline; margin-bottom:2px; margin-top:9px;
+}
+
+.class-ecobusiness .class-partner-plus-org img {
+float:right;
+margin-left:10px;
+margin-right:10px;
+outline:none;
+}
+.class-ecobusiness .field-field-org-affiliations{
+	color:#d89122;margin-top:10px; margin-bottom:10px;
+}
+.class-ecobusiness ul.links li a:link, ul.links li a:visited{
+	font-weight:bold; color:#d89122; margin-bottom:14px;text-decoration:underline; margin-right:12px;
+}
+/**************styles for ecocommunity node view*******************/
+.class-nonprofit{
+	background:none; border:2px solid #78c67a;margin-bottom:20px;padding:10px 18px;
+}
+.class-nonprofit h2, .class-nonprofit h2 a:link, .class-nonprofit h2 a:visited{
+	color:#78c67a; font-size:20px; font-family:palatino linotype, serif; text-decoration:underline; margin-bottom:2px; margin-top:9px;
+}
+
+.class-nonprofit .class-partner-plus-org img {
+float:right;
+margin-left:10px;
+margin-right:10px;
+outline:none;
+}
+.class-nonprofit .field-field-org-affiliations{
+	color:#78c67a;margin-top:10px; margin-bottom:10px;
+}
+.class-nonprofit ul.links li a:link, .class-nonprofit ul.links li a:visited{
+	font-weight:bold; color:#78c67a; margin-bottom:14px;text-decoration:underline; margin-right:12px;
+}
+
+.class-affiliations p .class-affiliations-field-label{
+	color:#339966; font-weight:bold;
+}
+.field-item{
+color:#666666;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:12px;
+font-style:italic;
+line-height:140%;
+}
+.field-item a:link, .field-item a:visited{
+	font-style:normal; color:#275564; text-decoration:underline;
+}
+.field-field-org-website{
+	margin-top:10px;
+}
+/**************************styles for list view**************************/
+
+/**styles for basic listing list view**/
+.class-basic-org {
+margin-bottom:20px; background:none;
+padding:5px 0px;
+}
+
+.view-id-dir_orgs2 .views-row-odd {
+background:none;
+}
+.class-phone-website {
+clear:none;
+float:none;
+margin-left:0px;
+width:305px;
+}
+.class-basic-org h2 {
+	margin:0 0 5px 0; padding:0;
+}
+.class-basic-org h2 a:link,.class-basic-org h2 a:visited {
+	margin-bottom:5px;
+}
+.class-basic-org .class-phone-website p{
+	margin-bottom:0; padding-bottom:0;
+}
+.class-basic-org .class-address-container p{
+	margin:0; padding:0;
+}
+.class-orgfields-selwyn p {
+margin:10px 0;
+}
+.class-basic-org .field-item a:link,.class-basic-org  .field-item a:visited{
+	margin-bottom:0; padding-bottom:0;
+}
+.class-basic-org p a:link, .class-basic-org p a:visited{
+	display:none;
+}
+.view-id-dir_orgs2 .views-row-even {
+background:none;
+}
+
+/**styles for govt list view**/
+.class-partner-org .class-government {
+	border:2px solid #7cabc5; 
+}
+.class-government h2{
+	color:#7cabc5;
+}
+.class-government h2 a:link,.class-government h2 a:visited {
+	color:#7cabc5;	text-decoration:underline;
+}
+.class-government p{
+	/*margin:15px 0; padding:10px 0;*/
+}
+.class-government .class-phone-website .field-item{
+	color:#000; font-style:normal;
+}
+.class-ecocommunity .class-partner-org .class-government h2{
+	text-decoration:none;
+}
+.class-ecocommunity .class-partner-org .class-government .clear-both{
+	clear:none;
+}
+.class-ecocommunity .class-partner-org .class-government h2 a:link, .class-ecocommunity .class-partner-org .class-government h2 a:visited{
+	text-decoration:underline;
+}
+.class-ecocommunity .class-basic-org .class-government{
+	border:none; margin:0; padding:0;
+}
+.class-ecocommunity .class-partner-plus-org .class-government{
+	color:; background-image:url(images/grad-gov.jpg); background-repeat:no-repeat;
+}
+
+
+/**styles for biz list view**/
+.class-ecobusiness h2{
+	text-decoration:underline;
+}
+.class-ecobusiness h2 a:link, .class-ecobusiness h2 a:visited{
+	color:#d89122;text-decoration:underline;
+}
+.class-ecobusiness .class-partner-plus-org{
+	border:2px solid #d89122;background-image:url(images/grad-biz.jpg); background-repeat:no-repeat; margin-bottom:20px;padding:10px 18px;
+}
+
+.class-ecobusiness .class-basic-org{
+	border:none;
+}
+.class-ecobusiness .class-basic-org .clear-both{
+	clear:none
+}
+.class-ecobusiness .class-partner-org .class-non-eco-community-member-type{
+	border:2px solid #d89122;margin-bottom:20px;padding:10px 18px; color:d89122;
+}
+.class-ecobusiness .class-partner-org .class-non-eco-community-member-type h2 a:link, .class-ecobusiness .class-partner-org .class-non-eco-community-member-type h2 a:visited {
+	color:d89122;
+}
+
+/**styles for np list view**/
+.class-ecocommunity .class-partner-plus-org .class-nonprofit{
+	background-image:url(images/grad-nprofit.jpg); background-repeat:no-repeat;
+}
+.class-ecocommunity .class-partner-org .class-nonprofit .clear.both{
+	clear:none;
+}
+.class-nonprofit h2{
+	/*text-decoration:none;*/
+}
+.class-nonprofit h2 a:link, .class-nonprofit h2 a:visited{
+	color:#78c67a; 
+}
+.class-ecocommunity .class-partner-org .class-non-eco-community-member-type .class-address-container{
+	margin-top:0; padding-top:0;
+}
+.class-ecocommunity .class-partner-org .class-non-eco-community-member-type{
+	border:2px solid #78c67a;margin-bottom:20px;
+padding:10px 18px;
+}
+.class-ecocommunity .class-partner-org .class-non-eco-community-member-type .clear-both{
+	clear:none;
+}
+.class-ecocommunity .class-basic-org .class-community-group h2 , .class-ecocommunity .class-basic-org .class-community-group h2 {
+	text-decoration:none; border:none; font-size:20px;color:#78C67A;
+}
+.class-ecocommunity .class-basic-org .class-community-group h2 a:link, .class-ecocommunity .class-basic-org .class-community-group h2 a:visited{
+	color:#78c67a; text-decoration:underline; font-family:palatino linotype, serif;
+}
+.class-ecocommunity .class-partner-org .class-non-eco-community-member-type h2 a:link, .class-ecocommunity .class-partner-org .class-non-eco-community-member-type h2 a:visited{
+	text-decoration:underline;font-family:palatino linotype, serif;color:#78C67A;
+}
+.class-ecocommunity .class-basic-org .class-non-eco-community-member-type h2 a:link, .class-ecocommunity .class-basic-org .class-non-eco-community-member-type h2 a:visited{
+	text-decoration:underline;font-family:palatino linotype, serif; color:#78c67a; font-size:20px;
+}
+.class-ecocommunity .class-basic-org .class-non-eco-community-member-type h2 a:hover{
+/*	text-decoration:none;*/
+}
+.class-ecocommunity .class-basic-org .class-nonprofit h2 a:link, .class-ecocommunity .class-basic-org .class-nonprofit h2 a:visited{
+	text-decoration:underline;font-family:palatino linotype, serif; color:78c67a; font-size:20px;
+}
+
+.class-category-field-label{
+	color:#396; font-weight:bold;
+}
+.class-ecocommunity .class-basic-org .class-community-group ul.links li a:link,.class-ecocommunity .class-basic-org .class-community-group ul.links li a:visited{
+	font-weight:bold; color:#78c67a; margin-bottom:14px;text-decoration:underline; margin-right:12px;
+}
+/************************tweeks 10/5/09******************************/
+.item-list .pager li {
+background-image:none;
+display:inline;
+list-style-type:none;
+padding:0;
+}
+.class-ecocommunity  .class-basic-org .class-non-eco-community-member-type h2{
+	font-size:20px; font-family:palatino linotype,serif; color:#78c67a;text-decoration:underline;
+}
+
+.class-ecocommunity .class-partner-plus-org .class-community-group{
+	background-image:url(images/grad-nprofit.jpg); background-repeat:no-repeat;color:#78C67A; 
+border:2px solid #78C67A;
+margin-bottom:20px;
+padding:10px 18px;
+}
+.class-ecocommunity .class-partner-plus-org .class-community-group h2, .class-ecocommunity .class-partner-plus-org .class-community-group h2 a:link, .class-ecocommunity .class-partner-plus-org .class-community-group h2 a:visited {
+	color:#78C67A; font-family:palatino linotype,serif; font-size:20px;text-decoration:underline;
+}
+
+
+/**************************
+selwyn dir tweeks 10/14/09
+**************************/
+
+.class-directory-title-header h2{
+  font-size:20px;
+  color: red;
+  
+}

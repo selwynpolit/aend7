@@ -1,0 +1,85 @@
+name = Cloudy
+description = Default theme for the Recruiter distribution.
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+base theme = omega
+version = 1.x
+
+; ACTIVE FEATURES
+features[] = favicon
+features[] = logo
+features[] = name
+features[] = slogan
+
+stylesheets[all][] = css/cloudy.css
+stylesheets[all][] = css/tipTip.css
+scripts[] = js/cloudy.js
+scripts[] = js/superfish.js
+scripts[] = js/jquery.tipTip.minified.js
+scripts[] = ../omega/js/jquery.matchmedia.js
+scripts[] = ../omega/js/omega.messages.js
+
+; REGIONS
+regions[navigation] = Navigation
+regions[banner] = Banner
+regions[search] = Search
+regions[preface] = Preface
+regions[featured] = Featured
+regions[help] = Help
+regions[content] = Content
+regions[postscript] = Postscript
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[footer_second] = Footer Second
+
+; OVERLAY REGIONS
+overlay_regions[] = preface
+overlay_regions[] = featured
+overlay_regions[] = content
+overlay_regions[] = postscript
+
+settings[omega_toggle_front_page_content] = 1
+settings[default_logo] = 1
+settings[logo_path] = ''
+settings[logo_upload] = ''
+settings[default_favicon] = 1
+settings[favicon_path] = ''
+settings[favicon_upload] = ''
+settings[omega_toggle_extension_scripts] = 1
+settings[omega_js_footer] = 0
+settings[omega_libraries][selectivizr][status] = 1
+settings[omega_libraries][css3mediaqueries][status] = 0
+settings[omega_libraries][respond][status] = 1
+settings[omega_libraries][css3pie][status] = 1
+settings[omega_libraries][css3pie][variant] = js
+settings[omega_libraries][css3pie][selectors][] = *
+settings[omega_libraries][html5shiv][status] = 1
+settings[omega_libraries][messages][status] = 1
+settings[omega_toggle_extension_layouts] = 1
+settings[omega_layout] = epiqo
+settings[omega_toggle_extension_development] = 0
+settings[omega_rebuild_theme_registry] = 0
+settings[omega_rebuild_aggregates] = 1
+settings[omega_browser_width_indicator] = 0
+settings[omega_dummy_blocks] = 0
+settings[omega_toggle_extension_css] = 1
+settings[omega_media_queries_inline] = 1
+settings[omega_css_exclude][] = views/*
+settings[omega_css_exclude][] = system/system.menus.css
+settings[omega_css_exclude][] = addressfield/addressfield.css
+settings[omega_toggle_extension_compatibility] = 1
+settings[omega_conditional_classes_html] = 1
+settings[omega_cleartype] = 1
+settings[omega_handheld_friendly] = 1
+settings[omega_mobile_optimized] = 1
+settings[omega_viewport] = 1
+settings[omega_chrome_edge] = 1
+
+; Information added by drupal.org packaging script on 2013-03-21
+version = "7.x-1.1"
+core = "7.x"
+project = "cloudy"
+datestamp = "1363880412"
+

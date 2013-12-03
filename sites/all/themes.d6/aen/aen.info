@@ -1,0 +1,21 @@
+; $Id$
+name = AEN
+description = AEN theme for the Austin EcoNetwork website.
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = directory_style.css
+stylesheets[all][] = local.css
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[banner_top] = Top Banner
+regions[banner_side] = Side Banner
+regions[header_side] = Side Header
+regions[main_menu] = Main menu
+regions[user_menu] = User menu
+regions[content_left] = Content Left

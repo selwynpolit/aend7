@@ -1,0 +1,226 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+html {
+  background-color: #fff;
+}
+
+a:link, a:visited{
+	color: #000000;
+}
+
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	color: #253245;
+	background-color: #25565D;
+	font-size: 16px;
+	text-align: center;
+	/*font-family: verdana;*/
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	text-decoration: none;
+}
+
+#zone-content{
+	max-width: 1180px;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	//text-decoration: none;
+	//font-weight: bold;
+	color: #000000;
+	
+}
+
+.breadcrumb{
+	text-align: left;
+}
+
+.breadcrumb a:link{
+	text-decoration: none ;
+}
+
+.breadcrumb a:after
+{
+content: ">>";
+} 
+
+.front #page-title {
+	display: none;
+}
+
+.site-name a:link, .site-name a:visited{
+	font-size: 1.3em;
+	text-align: center;
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	text-decoration: none;
+}
+
+.simplead-container{
+	margin-top: 20px;
+}
+
+
+
+/* main menu */
+
+.navigation {
+	max-width: 1180px;
+	background-color: #85C5CB ;
+	height: 31px;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-top: 20px;
+	}
+
+#main-menu{
+	background-color: #85C5CB ;
+	font-size: 23px ;
+	color: #000000;
+}
+
+ul.inline li{
+	padding: 4px 32px 0px 14px ;
+	margin 0px;
+}
+.main-menu li {
+	//border: 1px solid red ;
+	border-right: 1px solid #ffffff;
+	color: #ffffff;
+	margin: -1px;
+	padding-left: 30px;
+}
+
+.main-menu li.last{
+	border-right: none;
+}
+
+.main-menu li.first{
+	border-left: none;
+}
+
+.main-menu li a{
+	text-decoration:none;
+}
+
+.main-menu li.active {
+	background-color: #000000;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	padding-top: 3px;
+}
+
+.main-menu li.active a{
+	color: #ffffff;
+
+}
+
+.main-menu li.active a:visited{
+	color: #ffffff;
+}
+
+/* *******************************
+   whats new carousel on home page 
+   *******************************
+*/
+
+#block-views-whats-new-block-1{
+	//width: 400px;
+}
+.view-id-whats_new  {
+	//width: 400px;
+	border: solid 1px #DADADA;
+	padding: 1px 9px 0px 6px;
+	//float:left;
+	
+}
+
+
+.view-id-whats_new .views-field-title {
+	//float:left;
+	font-weight:bold;
+	color: #000000;
+
+}
+
+.view-id-whats_new .views-field-title a{
+	text-decoration: none ;
+	color: #000000;
+}
+
+.view-id-whats_new .view-footer a{
+	text-decoration: none ;
+	color: ffffff;
+	background-color: #25565D;
+    position: relative;
+	top: -27px;
+	left: 140px;
+}
+
+.view-id-whats_new .view-footer p{
+	height: 0px;
+}
+
+
+.view-id-whats_new .views-field-field-picture{
+	clear: left;
+	float: left;
+	padding: 6px;
+	
+}
+
+.view-id-whats_new .views-field-nothing{
+	color: #25565D;
+	
+}
+
+.view-id-whats_new .views-slideshow-controls-bottom{
+	background-color: #25565D;
+
+}
+
+.view-id-whats_new .views-field-counter{
+	float:left;
+	margin-left: 23px;
+	background-color: #25565D;
+	color: #ffffff;
+	font-size: 1.3em;
+
+}
+
+
+/* connect with austineconetwork block */
+#block-block-14{
+	//border: 1px solid #4960a4 ;
+	margin-top: 10px;
+}
+
+/* upcoming events */
+#block-views-upcoming-events2-block-1{
+	//width: 297px;
+	//float: left;
+}
+.block-upcoming-events2-block-1{
+
+}
+
+/* available jobs */
+#block-views-available-jobs-block-1{
+	//width: 300px;
+	//float: left;
+}
+
+#block-block-17{
+	//width: 200px ;
+	//float: left ;
+}
+
+
+
+#block-block-18{
+	//width: 200px ;
+	//float: left;
+}

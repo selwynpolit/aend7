@@ -1,0 +1,246 @@
+/* $Id: local-sample.css,v 1.1.2.1 2010/01/11 00:08:12 sociotech Exp $ */
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+body{
+background-color:#25565D;
+margin-top:10px; margin-bottom:20px;
+}
+a, a:link, a:visited {
+	color:#253245;
+	font-weight: bold;
+}
+#main {
+background-color:#FFFFFF; padding-top: 15px;
+}
+/******** Header Group *****/
+#header-group{
+	background-color:#8ABF6F;
+	background-image:url(header1.png);
+	background-repeat: no-repeat;
+}
+#logo{
+	padding-left:150px;
+}
+#primary-menu{
+background-color:#5797A7;
+font-size:1.3em;
+font-weight:normal;
+padding-bottom:0px;
+padding-top:0px;
+border-top: 1px solid #FFFFFF;
+}
+.block ul, .block ol {
+/*margin-left:0;
+padding:0;*/
+}
+#primary-menu a{
+color:#FFFFFF;
+display:inline;
+}
+#primary-menu .active-trail{
+background-color:#253245;
+}
+#primary-menu  li {
+border-right:1px solid #FFFFFF;
+
+}
+#block-menu-primary-links ul li.last{
+	border:none;	
+}
+.block{
+margin-bottom:0;
+}
+/*body.front #breadcrumbs{
+	display:none;	
+}
+#block-views-front_page_slideshow-block_1{
+	position:relative;	
+}
+#block-views-front_page_slideshow-block_1 h2.title{
+	position:absolute;	
+}*/
+/*******************home page setup to look like Steve's psd ***************************/
+#adregion{
+	width:940px; clear:both;margin:0 auto; background-color:#fff;padding: 20px 10px 5px;	 height: 105px;
+}
+#bannerad{
+	float:left;background-color:#fff;	
+}
+#top_right_ad{
+	float:right;background-color:#fff;                
+}
+body.front #content-inner-inner h1.title{
+	/*display:none;	*/
+}
+#block-views-front_page_slideshow-block_1{
+margin-bottom:10px;
+}
+#block-views-front_page_slideshow-block_1  .views-field-field-picture-fid img{
+	float: left;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-left: 4px;
+	background-color:#FFFFFF;
+ }
+#block-views-front_page_slideshow-block_1 .inner{
+	border:1px solid #999;
+ }
+#block-views-front_page_slideshow-block_1 .views-field-title{
+ }
+#block-views-66173b5557f358fe59042ffb711acdf4 .inner{
+	border:1px solid #999;
+}
+#block-views-66173b5557f358fe59042ffb711acdf4{
+margin-bottom:10px;
+}
+#block-views-66173b5557f358fe59042ffb711acdf4 .view-footer{
+	background-color:#e0e0e0;
+	text-align:center;
+	font-weight: bold;
+ }
+#block-views-66173b5557f358fe59042ffb711acdf4 .views-row-even{
+	background-color: #EBEBEB;
+}
+#block-views-front_new-block_1{
+	margin-left:20px;border: 1px solid #999999; padding:0;	
+}
+/* more slide show */
+#views_slideshow_thumbnailhover_main_front_page_slideshow-block_1 {
+	float:left;
+}
+.activeSlide{
+background-color:#e0e0e0;
+}
+/*#block-views-front_new-block_1*/
+#pid-home h1.title{
+display:none;
+}
+ h2.block-title{
+	padding:4px;
+	background-color:#5797a7;
+	text-align:center;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:1.4em;
+	margin: 1px;
+	border: 1px solid #999999;
+}
+#block-block-9 .inner{
+border:1px solid #999;
+}
+#block-views-front_page_slideshow-block_1 .views-field-title{
+	padding-right: 4px;
+	padding-left: 4px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+ #block-views-front_page_slideshow-block_1 .view-footer{
+	background-color:#e0e0e0;
+	padding-right: 4px;
+	padding-left: 4px;
+	text-align:center;
+	font-weight: bold;
+ }
+ #block-views-front_page_slideshow-block_1 p{
+ margin-bottom:0;
+ }
+.front-page-latest-events .field-content, .front-page-latest-events .views-field-title{
+padding:4px;
+}
+.front-page-latest-events p{
+margin-bottom:0;
+}
+.ecodir .inner{
+border:1px solid #999;
+
+}
+/*#block-views-front_new-block_1 ul{
+	padding: 3px 8px;margin-bottom: 3px;
+}
+#block-views-front_new-block_1 ul li{
+	padding-bottom:5px;	
+}
+#block-views-front_new-block_1 .views-field-title a:link,
+#block-views-front_new-block_1 .views-field-title a:visited{
+	color:#f26e04;	font-size: 14px;
+}
+#block-views-front_new-block_1 .views-field-title a:hover{
+	color:#5797a7;	
+}*/
+#views_slideshow_singleframe_teaser_section_front_page_slideshow-block_1 .views_slideshow_singleframe_slide {
+		position: relative; height:auto; width:380px;
+}
+
+/*			<!-------- Image handling-------!> */
+
+#blog-photo{
+	float:left;
+	padding-right: 8px;
+}
+			.terms{
+			float:left;
+			padding-right:10px;
+			}
+			
+#footer{
+	background-color:#fff; background-image:url(/sites/all/themes/fusion/austineconetwork/images/footer-bottom-bg.jpg); background-repeat:no-repeat; background-position:bottom; padding-bottom:25px; text-align:center;	
+}
+#footer ul.menu{
+	text-align:center; margin:20px auto 0;	
+}
+#footer ul.menu li a:link,
+#footer ul.menu li a:visited {
+	font-family:Arial, Helvetica, sans-serif; font-size:1.2em; text-decoration:none; color:#000;
+}
+#footer ul.menu li a:hover{
+	text-decoration: underline;	
+}
+#preface-top{
+background-color:#FFFFFF;
+}
+#block-ad-1{
+padding-top:15px;
+}
+.calendar-add a{
+	background:#FF9900;
+	padding:4px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #CCCCCC;
+	color:#000000;
+}
+
+
+
+
+
+
+
+
+

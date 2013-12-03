@@ -1,0 +1,1056 @@
+/* $Id$ */
+
+/**
+ * Main CSS file for AEN website
+ * note : drupal provides several class styles like:
+ * clear-block - clears floats with after: method (not overflow method which may be superior) - I used overflow method
+ * tabs primary
+ * tabs secondary
+ * check the included css files when a page is loaded
+ */
+
+.front .node{ padding: 0px; };
+.front #content-wrapper{
+  padding-left: 0px;
+}
+ .page-calendar #content-left-wrapper, .page-admin #content-left-wrapper{
+ 	display: none;
+ }
+ .page-calendar #content-outer, .page-admin #content-outer{
+ 	width: 825px;
+ }
+ .page-blog .page-title{
+ display: none;
+ }
+ .page-blog .node-after-first .author-picture{
+ 	display: none;
+ }
+ .page-blog .node-after-first .blog-by-line{
+ 	padding-top: 5px;
+ }
+ .page-blog .node-after-first .blog-content{
+ 	margin-top: 10px;
+ }
+.node-after-first{
+ 	border-top: 1px dotted #cccccc;
+ 	margin-top: 10px;
+ 	padding-top: 10px;
+ 	margin-left:21px;
+ }
+ .node{
+ 	/*background: #dddddd;*/background: #none;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	overflow: hidden;
+	padding-bottom: 10px; 
+}
+ .clear-both{
+ 	clear: both;
+ }
+ #textwrap-float-1{
+ 	float:left;
+	height:50px;
+	width:0;
+ }
+ #textwrap-inline-1{
+ 	height:30px;
+	width:1px;
+ }
+ #blog-photo-content-container{
+ 	margin-top:-20px;
+ }
+ .page-blogs .blog-content{
+ clear: none;
+  margin-left: 10px;
+ }
+ #author-blog-title{
+ 	
+background:#CCCCCC none repeat scroll 0 0;
+display:block;
+height:16px;
+padding:5px;
+ }
+ #blog-photo-1{
+ 	background:#CCCCCC none repeat scroll 0 0;
+clear:left;
+float:left;
+height:75px;
+margin:18px 10px 0 25px;
+width:100px;
+ }
+ #block-views-blogroll_new-block_1{
+ 	text-align: left;
+ }
+.page-node .feed-icon, .page-blogs .feed-icon, .page-blog .feed-icon{
+	float: left; padding-top: 13px; padding-right: 5px;
+}
+
+.addthis-block{padding: 0px; float: right; margin-top: 0px; }
+
+.terms a:link{
+	text-decoration: underline;
+}
+#blog-node-terms{
+	
+	clear:both;
+float:right;
+font-size:9px;
+width:200px;
+}
+.h3-dark{
+	color:#333333;
+	font-weight:lighter;
+	margin:0 0 3px;
+	padding-bottom:0;
+	padding-left:5px;
+	
+}
+.blog-title{
+	font-size: 18px;
+}
+
+#blog-page-title{
+	/*display:block;
+	background: #cccccc;
+	padding: 5px;*/
+	background:#CCCCCC none repeat scroll 0 0;
+display:block;
+height:16px;
+padding:5px;
+}
+
+.author-picture{
+	width: 65px;
+	height: 65px;
+	float: left;
+	background: #cccccc;
+	margin: 10px;
+}
+
+.blog-by-line{
+	padding-top: 32px;
+}
+
+.blog-content{
+	margin-top:37px;
+}
+
+#blog-photo{
+	background:#CCCCCC none repeat scroll 0 0;
+clear:left;
+float:left;
+height:150px;
+margin:18px 10px 0 25px;
+width:200px;
+}
+/* TOP NAV */
+
+#search-wrapper{
+	background: #253245; 
+	float: right; 
+	width: auto;	
+}
+
+#search-box{
+	width: auto;
+	height: 20px;	
+}
+
+#main-menu {
+  float:left;
+font-family:verdana;
+font-size:14px;
+height:20px;
+margin:0;
+overflow:visible;
+padding:0 0 5px;
+position:relative;
+text-decoration:none;
+}
+
+/*wrappers and all that */
+
+#container {
+/*clear: both;*/
+	}
+
+#banner-top .image-advertisement img{
+	margin-left: auto;
+	margin-right: auto;
+}
+#right-wrapper{
+	float: right;
+	width: 175px;
+}
+
+#content-left-wrapper{
+	clear:left;
+	float:left;
+	padding:10px;
+	text-align:left;
+	width:150px;
+}
+#content-left-wrapper .block{
+	margin-top: 20px;
+}
+
+#content-left-wrapper .block h2{
+	margin-bottom: 0px;
+}
+
+#left-wrapper{
+	width: 825px;
+	float: left;
+	background:#ffffff; 
+	margin: auto;
+}
+
+#content-wrapper {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  clear: both;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+#content-outer{
+	float:left;
+	width:650px;	
+}
+
+.front #content-outer{
+	width: auto;
+	float: none;
+}
+
+
+#right-content-blocks{
+	width: 175px; 
+	background: #253245; 
+	float: left;	
+}
+
+/**
+ * Generic elements
+ */
+
+ 
+
+
+
+
+.messages{
+  border: 1px dashed #333399; background: #99ccff; color: #333399; font-weight: bold; padding: 5px;
+}
+
+#header-logo {
+	float: left; 
+	background: url('images/header_logo.png') no-repeat; 
+	width:857px;	
+}
+#header-nav a{
+font-size: 14px;
+font-weight: bolder;
+color: #ffffff;
+text-decoration: none;
+}
+
+#header-nav a:link {
+color: rgb(37, 50, 69);
+text-decoration: none;
+}
+#header-nav a:hover {
+text-decoration: underline;
+}
+#header-nav-wrapper{
+	position: relative; 
+	float: left; 
+	background: url('images/header_topnav.png') no-repeat; 
+	width:143px;
+	height: 143px;
+	}
+#header-nav{
+ margin-right: 15px;
+ width: 300px;
+ margin-top:43px; 
+ margin-left: -165px; 
+ height: auto;
+ }
+ #header-nav ul{
+ list-style: none;
+ }
+ #header-nav ul li{
+ list-style: none;
+ }
+ 
+ .view-blogs-newsletter table{
+ vertical-align: top;
+ font-size: 12px;
+ }
+
+#footer-outer{
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+	width:1000px;
+}
+#footer-inner{
+	background-attachment:scroll;
+	background-color:#FFFFFF;
+	background-image:none;
+	background-position:0 0;
+	background-repeat:repeat;
+	border-top-color:#CCCCCC;
+	border-top-style:dotted;
+	border-top-width:1px;
+}
+
+#block-menu-menu-footer .content ul.menu{
+ list-style: none;
+ margin: auto;
+ text-align: center;
+}
+
+#block-menu-menu-footer .content ul.menu li{
+	display: inline;
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bolder;
+	}
+
+.views-field-field-picture-fid{ 
+float: left;
+ padding-right: 5px;
+ padding-top: 10px;
+}
+ #page-wrapper{
+ 	background: #ffffff;
+ 	margin: auto auto; 
+ 	width:1000px;
+ }
+.clear{ clear: both; }
+.float-left{ float: left; }
+.image-advertisement, .text-advertisement{
+	padding: 5px 5px 5px 5px;
+	color: #ffffff;
+}
+.content .image-advertisement{
+	padding:0px;
+	padding-top: 3px;	
+	}
+
+/* override drupal system tbody default */
+/* !!!!MAY NEED TO MAKE THIS CLASS SPECIFIC!!!!!!! */
+tbody {
+  border: 0;
+}
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	color: #253245;
+	background-color: #84975c;/*   485fa3   */
+	font-size: 12px;
+	text-align: center;
+	font-family: verdana;
+	text-decoration: none;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:hover {color: #ff0000;
+text-decoration: underline; 
+}
+
+h1 {
+	color: #253245;
+	font-size: 14px;
+	font-weight: bold;
+        text-transform: uppercase;
+}
+
+h2 {
+	color: #253245;
+	font-family: sans-serif, Trebuchet;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+h3 {
+	color: #9DC06E;
+	font-family: sans-serif, Trebuchet;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+j4 {
+	color: #6C8441;
+	font-family: serif;
+	font-size:14px;
+	font-weight: bold;
+	font-style:italic;
+	padding-left:10px;
+	padding-top:5px;
+	
+}
+
+.Cell {
+	background-repeat: no-repeat;
+}
+
+.Cell2 {
+	max-height:20px;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+.Cell3 {
+	max-height:50px;
+}
+
+
+.tablelock {
+	height: 92px;
+}
+.table_823 {
+	background-color: #FFF;
+	width: 823px;
+	max-width: 823px;
+}
+
+.table_799 {
+	background-color: #FFF;
+	width: 799px;
+	max-width: 799px;
+}
+
+
+.td_corner {
+	height: 20px;
+	max-height: 20px;
+	width: 20px;
+	max-width: 20px;
+}
+
+.td_W_759 {
+	width: 759px;
+	max-width: 759px;
+	vertical-align:top;
+}
+
+.td_W_351 {
+	width: 351px;
+	max-width: 351px;
+	vertical-align:top;
+
+}
+
+.overflow_scrollbar {
+	display: block;
+	overflow: scroll;
+	height:210px;
+}
+
+/**
+ * Layout elements
+ */
+
+/* Search box */
+div#search {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3px;
+  border: 0;
+  width: 175px;
+  height: 20px;
+  background-color: #ffffff;
+}
+#search .form-item {
+  margin: 0;
+  padding: 0;
+}
+#search .form-text {
+  margin: 0;
+  padding: 0;
+  height: 18px;
+  width: 123px;
+  border: 1px solid #faa43f;
+  display: block;
+  float: left;
+}
+#search .form-submit {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 20px;
+  color: #ffffff;
+  background-color: #faa43f;
+  width: 50px;
+  display: block;
+  float: right;
+}
+div#search label {
+  display: none;
+}
+
+/* Top Advertisement */
+#banner-top-region {
+  margin: 0;
+  padding: 0;
+/*
+  width: 730px;
+  height: 100px;
+*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Side Advertisement */
+#banner-side-region div.advertisement div {
+  margin: 8px 0px;
+}
+
+/* Content */
+
+#content-region {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+/*
+  margin-left: auto;
+  margin-right: auto;
+*/
+  text-align: left;
+  background-color: #ffffff;
+}
+
+/**
+ * Main menu CSS
+ */
+
+#sub-menu-spacer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  background-color: #253245;
+  z-index: 25;
+}
+
+#header-nav{
+	text-align: right;
+}
+
+
+#main-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* first level list */
+#main-menu ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#main-menu ul li {
+  display:inline;
+line-height:20px;
+margin:0 2px 0 0;
+padding:0;
+position:relative;
+}
+#main-menu ul li.last {
+  margin: 0;
+}
+#main-menu ul a {
+  margin: 0;
+  padding: 4px 20px 2px 20px;
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #4960a4;
+  position: relative;  /* hack to make ie7 show bottom padding on hover */
+}
+
+/* hack for last couple px */
+#main-menu ul li.last a {
+  padding: 4px 16px 2px 17px;
+}
+
+/* sf-breadcrumb class used to hack around superfish deleting active-trail class from parent items when used in pathClass option */
+#main-menu ul li.active-trail a, #main-menu ul li.active-trail:hover a { /*, #main-menu ul li.sf-breadcrumb a { */
+  padding-bottom: 5px;
+/*  font-weight: bold; */
+  background-color: #253245;
+}
+
+#main-menu ul li:hover a, #main-menu ul li.sfHover a {
+  padding-bottom: 5px;
+  background-color: #FAA43F;
+}
+
+#main-menu ul li a.active {
+}
+
+#main-menu ul li a:hover, #main-menu ul li.active-trail a:hover {
+  padding-bottom: 5px;
+  height: 23px;
+  background-color: #FAA43F;
+}
+
+/* second level list */
+#main-menu ul li ul {
+  background-color: #FAA43F;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: -9999em;
+  left: 0;
+/*  overflow: hidden; */
+  overflow: visible;
+  list-style: none;
+  background-color: #253245;
+}
+
+#main-menu ul li.active-trail ul {
+  top: 23px;
+  visibility: inherit; /* fixes IE7 'sticky bug' */
+  z-index: 50;
+}
+
+#main-menu ul li:hover ul, #main-menu ul li.sfHover ul {
+  top: 23px;
+  visibility: inherit; /* fixes IE7 'sticky bug' */
+  z-index: 75;
+}
+
+#main-menu ul li ul a, #main-menu ul li:hover ul a, #main-menu ul li.sfHover ul a, #main-menu ul li.active-trail ul a, #main-menu ul li ul li.last a, #main-menu ul li.last ul li a {
+  padding: 0px 3px;
+  
+}
+
+#main-menu ul li ul li.active-trail a {
+
+/*  font-weight: bold; */
+
+  color: #FAA43F;
+}
+
+#main-menu ul li ul li a.active {
+}
+
+#main-menu ul li ul li a:hover, #main-menu ul li.active-trail ul a:hover {
+  color: #FAA43F;
+  background-color: #253245;
+}
+/* End Main menu css */
+
+
+/* Front page elements */
+.front-box {
+  text-align: left;
+  vertical-align: top;
+//  outline: thin solid red;
+}
+
+#front-headlines .item-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+#front-headlines ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%
+}
+
+#front-headlines {
+  margin: 0;
+  padding: 0;
+  height: 265px;
+  overflow: hidden;
+  position: absolute;
+  top: -36px;
+}
+
+#front-events {
+  overflow:hidden; height:370px;
+}
+/*
+#front-headlines .views-field-title {
+  position: absolute;
+  top: -36px;
+}
+*/
+/*  Hide all but first headline (for no script people) */
+/*
+#front-headlines ul li {
+  visibility: hidden;
+}
+
+#front-headlines .views-row-first {
+  visibility: visible;
+}
+*/
+/* general purpose classes */
+.floated-left {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: inline; /* IE double margin float bug */
+/*  outline: solid thin gray; */
+}
+
+.cleared-both {
+  margin: 0;
+  padding: 0;
+  clear: both;
+/*  outline: solid thin orange; */
+}
+
+/* filter hide/show text */
+.filter-collapse {
+  margin-bottom: 10px;
+  padding: 0;
+}
+.filter-collapse span {
+  font-size: 10px;
+  cursor: pointer;
+  color: blue;
+}
+
+.page-directory .node{
+  background:#DDDDDD none repeat scroll 0 0;
+  border:1px dotted;
+  margin-top:15px;
+  overflow:hidden;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#main-menu .menu li.expanded ul.menu{
+  display:none;
+  text-align:left;
+  background-color: #FAA43F;  
+  width: 200px;
+  margin-left: -10px;
+}
+#main-menu .menu li.expanded ul.menu li{
+  width: 200px;
+  display: block;
+  clear: both;
+  background: #99cccc none repeat scroll 0 0
+}
+#main-menu .menu li.expanded ul.menu:hover{
+  display: inline;
+}
+/***********************rick's styles**************************************/
+/*changed .node style on(line 39) see commented out*/
+/*ul.menu li {
+font-size:14px;
+margin:0 0 7px 0.2em;
+}*/
+#block-views-dir_landing-block_1 h2{
+	 margin:10px 5px; color:#FFFFFF; text-align:center; 
+}
+#block-views-dir_landing-block_2 h2{
+	 margin:10px 0px; color:#FFFFFF; text-align:center;
+}
+li.leaf {/*system-m...nus.css?i (line 23)*/
+list-style-image:none;
+list-style-type:none;
+padding:0.2em 0.5em 7px 0;
+}
+#right-content-blocks {/*style.css?J (line 226)*/
+background:none; 
+float:left; padding:0; margin:0;
+width:175px;
+}
+h4{color:#efa53d;}	
+
+#right-wrapper {/*style.css?J (line 180)*/
+float:right; padding:0;
+margin-top:52px;margin-bottom:20px;
+width:175px;
+}
+.content .image-advertisement {/*style.css?J (line 337)*/
+padding:3px 0 0; margin-top:10px;
+}
+#content-left-wrapper .block {/*style.css?G (line 192)*/
+margin-top:60px; padding:0;
+}
+#footer-outer {/*style.css?G (line 290)*/
+clear:both; background-color:#9fcccf;
+margin:0 auto;
+padding-top:0px;
+width:1000px;
+}
+#footer-inner {/*style.css?G (line 297)*/
+background:#9fcccf none repeat scroll 0 0;
+border-top:1px dotted #CCCCCC; padding:14px 0;
+}
+#footer-inner a:link, #footer-inner a:visited{
+	color:#333; font-weight:normal;
+}
+#top-container{
+	height:166px; border:none; background-color:#5797a7;
+}
+div#search {/*style.css?G (line 461)*/
+background-color:#5797a7;
+border:0 none;
+height:20px;
+margin:0;
+padding:0 0 0px;
+width:175px;
+}
+#search-wrapper {/*style.css?1 (line 147)*/
+background:#253245 none repeat scroll 0 0;
+float:right;
+padding-top:1px;
+width:auto;
+}
+#main-menu ul a {/*style.css?G (line 575)*/
+background-color:#5797a7; border-right:1px solid #fff;
+color:#FFFFFF;
+/*height:90%;*/
+line-height:20px;
+margin:0;
+padding:1px 20px 2px; 
+position:relative;
+width:100%;
+}
+#main-menu ul li.active-trail a, #main-menu ul li.active-trail:hover a {/*style.css?1 (line 592)*/
+background-color:#253245;
+padding-bottom:4px;
+}
+#main-menu ul li a:hover, #main-menu ul li.active-trail a:hover {/*style.css?G (line 606)*/
+background-color:#FAA43F;
+height:23px;
+padding-bottom:4px; padding-left:20px;
+}
+#main-menu ul li.active-trail a, #main-menu ul li.active-trail:hover a {/*style.css?1 (line 592)*/
+background-color:#253245;
+padding-bottom:4px;
+}
+#header-logo {/*style.css?G (line 245)*/
+background:transparent url(images/header_logo_9-11-09.jpg) no-repeat scroll 0 0;
+float:left;
+width:857px;
+}
+#header-nav-wrapper {/*style.css?G (line 264)*/
+background:transparent url(images/header_topnav_9-11-09.jpg) no-repeat scroll 0 0;
+float:left; padding:0;
+height:143px;
+position:relative;
+width:143px;
+}
+#main-menu ul li.last a {/*style.css?G (line 587)*/
+padding:1px 16px 4px 17px;
+}
+#main-menu {/*style.css?G (line 158)*/
+float:left;
+font-family:verdana;
+font-size:14px;
+height:22px;
+margin:0;
+overflow:visible;
+padding:0 0 5px;
+position:relative;
+text-decoration:none;
+}
+#page-wrapper {/*style.css?W (line 326)*/
+background:#FFFFFF none repeat scroll 0 0;
+margin:auto;
+width:1000px; position:relative;
+}
+#front-headlines ul li {/*style.css?W (line 674)*/
+line-height:1.55em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+#front-headlines ul li {/*style.css?W (line 674)*/
+line-height:1.55em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+.views-field-name{
+	margin:5px 0; text-decoration:none;
+}
+.views-field-name .field-content a:visited{
+	text-decoration:none;
+}
+.views-field-name .field-content a:hover{
+	text-decoration: underline;
+}
+#block-views-dir_headings-block_1 h2{
+	/*PADDING-BOTTOM:3PX;*/ border-bottom:1px solid #6F873D; margin-bottom:16px; font-size:15px; color: #337244;
+}
+h3.page-title{
+	margin:0px 0 18px 0; padding:0;
+}
+#left-wrapper {/*style.css?W (line 200)*/
+background:#FFFFFF none repeat scroll 0 0;
+float:left; padding:0;
+margin:0 auto;
+width:825px;
+}
+#content-left-wrapper .block h2 {/*style.css?W (line 196)*/
+margin-bottom:0; padding:0; margin-top:0;
+}
+/******************************************************rick styles 9/11/09****************************************/
+body{
+ 	background-color:#275564;
+ }
+/************rick's 10/20/09******************/
+#hometop{padding:12px 20px 25px 40px; }
+#hometop h2{font-family:palatino linotype, serif; font-size:200%; color:#099; text-align:center;}
+#hometop p{  
+color:#253245;
+font-family:verdana, sans serif;
+font-size:13px;
+}
+
+#content-left-wrapper {
+clear:left;
+float:left;
+padding:10px;
+}
+
+#content-left-wrapper #block-views-blogroll_new-block_1{margin-top:25px;  margin-left:0px;padding:0 0 0 5px; }
+
+#content-left-wrapper .block {
+margin-top:20px;
+padding:0;
+}
+#content-left-wrapper  #block-views-blogroll_new-block_1{margin-top:20px; }
+
+#content-left-wrapper  #block-views-blogroll_new-block_1 h2{font-family:times new roman, serif; font-size:20px; color:#099; border-bottom:1px solid #099; }
+
+.views-field-name {
+margin:10px 0;
+text-decoration:none;
+}
+
+#content-left-wrapper .block h2 {
+margin-bottom:0;border-bottom:1px dotted #000;
+margin-top:0;
+padding:0;
+}
+
+#blog-page-title {
+background:#5797a7 none repeat scroll 0 0;
+display:block; border:1px solid #ccc
+height:16px;
+padding:5px;
+}
+
+#node-903 h2  {font-size:16px; font-family:palatino linotype,serif; color:#000;padding:7px 10px 12px;margin-bottom:0;}
+
+#blog-node-terms {
+text-align:right;padding-top:22px;width:220px;
+}
+
+.blog-by-line {
+padding-top:12px;
+}
+
+#author-blog-title {
+background:#5797a7 none repeat scroll 0 0;
+display:block; border:1px solid #ccc
+height:16px;
+padding:5px;
+}
+.blog-content p{clear:both;padding-bottom:15px;color:#666666;
+line-height:170%; }
+
+ul.links.inline {
+padding-bottom:15px; 
+}
+
+ul.links.inline li a:link,ul.links.inline li a:visited {
+   padding:0 8px;color:#D89122;
+font-weight:bold; text-decoration:underline;
+}
+
+ul.links.inline li a:visited{color:#ccc; text-decoration:none; }
+
+.item-list .pager {
+padding-top:30px;
+}
+.h3-dark {
+font-weight:bold;
+}
+.blog-title {
+font-size:16px;
+}
+h2 {
+color:#337244;
+font-family:palatino linotype;
+font-size:12px;
+font-weight:bold;
+}
+
+#blog-photo {
+background:#fff none repeat scroll 0 0;
+height:150px; border:1px solid #000;
+margin:18px 10px 10px 8px;
+width:200px;
+}
+#blog-page-title {
+padding:13px;color:#000;
+}
+
+h2 #blog-page-title {font-size:16px;
+}
+
+#blog-page-title a:link, #blog-page-title a:visited {color:#000;}
+
+a:link {
+text-decoration:none;color:#5393a3;
+}
+a:hover{text-decoration: underline; }
+
+#content-wrapper {
+background-color:#FFFFFF;
+clear:both;
+margin:0;
+overflow:hidden;
+padding:10px 10px 30px;
+text-align:left;
+}
+
+#content-region {
+line-height:160%;
+text-align:left;
+}
+div.calendar-calendar ul li a:link, div.calendar-calendar ul li a:visited{padding:10px;font-weight:bold; color:#5797a7; }
+
+h3.page-title{padding-left:25px;font-size:16px; }
+
+.author-picture {
+background:#fff none repeat scroll 0 0;
+float:left; 
+height:65px;
+margin:10px;
+width:66px;
+}
+
+

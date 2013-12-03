@@ -1,0 +1,15 @@
+@include at-media-query($media-narrow-up) {
+  .block-search {
+    label {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.block-search-api-saved-searches {
+  background-color: $color-3;
+}
+
+.search-container {
+  @include rgba-background(rgba(230, 230, 230, .5));
+}
